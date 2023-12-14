@@ -10,7 +10,11 @@ android {
 
     defaultConfig {
         applicationId = "com.example.viewmodelexample"
+<<<<<<< HEAD
         minSdk = 34
+=======
+        minSdk = 33
+>>>>>>> 07dcc52 (Timer - gotovo i radi.)
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
