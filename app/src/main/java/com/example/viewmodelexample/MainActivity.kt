@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
         mainViewModel.secondsLD.observe(this) {
             Log.d("MainActivity", "Message $it")
-            binding.tvRwsult.text = it.toString()
+            binding.tvResult.text = it.toString()
         }
 
         mainViewModel.finished.observe(this) {
